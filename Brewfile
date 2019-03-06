@@ -7,6 +7,7 @@ tap 'buo/cask-upgrade'
 
 # Binaries
 brew 'cask'
+brew 'bash'
 brew 'zsh'
 brew 'zsh-completions'
 brew 'zsh-autosuggestions'
