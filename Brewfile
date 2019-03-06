@@ -1,44 +1,61 @@
-tap "caskroom/cask"
-tap "caskroom/fonts"
-tap "caskroom/versions"
-tap "homebrew/bundle"
-tap "homebrew/core"
-tap "buo/cask-upgrade"
+tap 'caskroom/cask'
+tap 'caskroom/fonts'
+tap 'caskroom/versions'
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'buo/cask-upgrade'
 
-brew "cask"
-brew "zsh"
-brew "zsh-completions"
-brew "zsh-autosuggestions"
-brew "zsh-syntax-highlighting"
-brew "bash-completion"
-brew "mc"
-brew "fzf"
-brew "tree"
-brew "htop"
-brew "wget"
-brew "nmap"
-brew "links"
-brew "geoip"
-brew "watch"
-brew "node"
-brew "go"
+# Binaries
+brew 'cask'
+brew 'zsh'
+brew 'zsh-completions'
+brew 'zsh-autosuggestions'
+brew 'zsh-syntax-highlighting'
+brew 'coreutils'
+brew 'pkg-config'
+brew 'bash-completion'
+brew 'git'
+brew 'mc'
+brew 'mas'
+brew 'fzf'
+brew 'tree'
+brew 'htop'
+brew 'wget'
+brew 'nmap'
+brew 'links'
+brew 'trash'
+brew 'geoip'
+brew 'watch'
 
-brew "youtube-dl"
-brew "cowsay"
-brew "fortune"
+# Development
+cask 'postman'
+cask 'sublime-text'
+cask 'visual-studio-code'
+brew 'node'
+brew 'go'
 
-cask "font-hack"
-cask "font-source-code-pro"
+# Tools
+brew 'youtube-dl'
+brew 'cowsay'
+brew 'fortune'
 
-cask "iterm2-nightly"
-cask "google-chrome"
+# Fonts
+cask 'font-lato'
+cask 'font-roboto'
+cask 'font-open-sans'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
 
-cask "slack"
-cask "skype"
+# Apps
+cask 'iterm2-nightly'
+cask 'google-chrome'
+cask 'firefox'
+cask 'vlc-nightly'
+cask 'java'
+cask 'slack'
+cask 'skype'
 
-cask "vlc-nightly"
-
-cask "visual-studio-code"
-cask "sublime-text"
-cask "postman"
-
+# Mac App Store
+mas 'WhatsApp', id: 1147396723 
