@@ -1,3 +1,5 @@
+# Set default editor to vim
+export EDITOR='vim'
 
 ## Make terminal better
 alias cp='cp -iv'
