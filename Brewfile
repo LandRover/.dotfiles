@@ -57,8 +57,7 @@ cask 'vlc-nightly'
 cask 'java'
 cask 'slack'
 cask 'skype'
-cask 'real-vnc'
+cask 'whatsapp'
 
 # Mac App Store
 mas 'Keynote', id: 409183694
-mas 'WhatsApp', id: 1147396723 
