@@ -1,2 +1,2 @@
-source .zshrc.oh-my-zsh
-source .zshrc.settings
+source ~/.dotfiles/.zshrc.oh-my-zsh
+source ~/.dotfiles/.zshrc.settings
