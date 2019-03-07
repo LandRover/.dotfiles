@@ -97,11 +97,8 @@ alias cleanDS="find . -type f -name '*.DS_Store' -ls -delete"
 # cleanupLS: Clean up LaunchServices to remove duplicates in the "Open With" menu
 alias cleanLS="/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user && killall Finder"
 
-# screensaverDesktop: Run a screensaver on the Desktop
-alias screensaverDesktop='/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background'
-  
 # short cuts
-alias hosts='sudo edit /etc/hosts'
+alias hosts='sudo vim /etc/hosts'
 
 # System
 alias brewery='brew update && brew upgrade && brew cleanup'
