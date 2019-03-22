@@ -61,7 +61,9 @@ cask 'droplr'
 cask 'flume'
 cask 'java'
 cask 'slack'
+cask 'microsoft-teams'
 cask 'skype'
+cask 'skype-for-business'
 cask 'whatsapp'
 
 # Mac App Store
