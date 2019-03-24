@@ -1,3 +1,5 @@
+#code --list-extensions | xargs -L 1 echo code --install-extenstion > ext-list.txt
+
 code --install-extenstion aaron-bond.better-comments
 code --install-extenstion akamud.vscode-theme-onedark
 code --install-extenstion bierner.color-info
