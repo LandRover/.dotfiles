@@ -1,0 +1,21 @@
+{
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.fontSize": 20,
+  "workbench.colorTheme": "Atom One Dark",
+  "editor.fontFamily": "Operator Mono, Fire Mono",
+  "window.zoomLevel": -1,
+  "editor.renderIndentGuides": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.wordWrap": "off",
+  "html.format.wrapLineLength": 0,
+  "javascript.validate.enable": false,
+  "prettier.disableLanguages": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "json"
+  ],
+  "standard.validate": ["javascript", "javascriptreact"],
+  "standard.autoFixOnSave": true
+}
