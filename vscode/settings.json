@@ -18,5 +18,6 @@
     "json"
   ],
   "standard.validate": ["javascript", "javascriptreact"],
-  "standard.autoFixOnSave": true
+  "standard.autoFixOnSave": true,
+  "npm.enableScriptExplorer": true
 }
