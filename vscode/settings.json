@@ -1,4 +1,5 @@
 {
+  "http.proxyStrictSSL":false,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.fontSize": 20,
   "workbench.colorTheme": "Atom One Dark",
