@@ -1,9 +1,12 @@
 {
   "http.proxyStrictSSL":false,
+  "workbench.startupEditor": "newUntitledFile",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.fontSize": 20,
   "workbench.colorTheme": "Atom One Dark",
   "editor.fontFamily": "Operator Mono, Fire Mono",
+  "terminal.integrated.fontFamily": "Source Code Pro",
+  "terminal.integrated.fontSize": 14,
   "window.zoomLevel": -1,
   "editor.renderIndentGuides": false,
   "editor.formatOnPaste": true,
