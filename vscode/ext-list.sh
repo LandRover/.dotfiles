@@ -22,7 +22,6 @@ code --install-extension pnp.polacode
 code --install-extension pranaygp.vscode-css-peek
 code --install-extension qezhu.gitlink
 code --install-extension richie5um2.vscode-sort-json
-code --install-extension robinbentley.sass-indented
 code --install-extension Shan.code-settings-sync
 code --install-extension shinnn.stylelint
 code --install-extension sidthesloth.html5-boilerplate
@@ -34,3 +33,4 @@ code --install-extension wayou.vscode-todo-highlight
 code --install-extension wwm.better-align
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension Zignd.html-css-class-completion
+
