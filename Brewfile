@@ -35,6 +35,7 @@ cask 'visual-studio-code'
 cask 'gitkraken'
 cask 'transmit'
 brew 'node'
+brew 'nvm'
 brew 'go'
 
 # Tools
