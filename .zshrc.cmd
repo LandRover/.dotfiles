@@ -124,7 +124,3 @@ alias kill_chrome="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v exte
 alias shrug="printf '¯\_(ツ)_/¯' | pbcopy"
 alias flipt="printf '(╯°□°)╯︵ ┻━┻' | pbcopy"
 alias fight="printf '(ง'̀-'́)ง' | pbcopy"
-
-# NVM
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
