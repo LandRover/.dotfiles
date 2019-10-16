@@ -65,6 +65,5 @@ cask 'slack'
 cask 'clipy'
 cask 'microsoft-teams'
 cask 'skype'
-cask 'skype-for-business'
 cask 'whatsapp'
 
