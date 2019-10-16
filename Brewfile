@@ -67,5 +67,3 @@ cask 'skype'
 cask 'skype-for-business'
 cask 'whatsapp'
 
-# Mac App Store
-mas 'Keynote', id: 409183694
