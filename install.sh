@@ -18,7 +18,7 @@ brew bundle
 chsh -s $(which zsh)
 
 # Install global NPM packages
-npm install --global yarn
+sudo npm install --global yarn
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
