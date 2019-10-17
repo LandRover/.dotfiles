@@ -17,6 +17,9 @@ brew bundle
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
+# update npm to latest
+npm install -g npm
+
 # Install global NPM packages
 sudo npm install --global yarn
 
