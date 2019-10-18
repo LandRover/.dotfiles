@@ -192,6 +192,12 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bo
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
 sudo systemsetup -settimezone "Asia/Jerusalem" > /dev/null
 
+# Show Percent Battery in menu bar
+defaults write com.apple.menuextra.battery ShowPercent -string "YES"
+
+# Flash the time separators
+defaults write com.apple.menuextra.clock FlashDateSeparators -bool true
+
 # Stop iTunes from responding to the keyboard media keys
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
