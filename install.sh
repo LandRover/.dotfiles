@@ -21,7 +21,7 @@ brew cleanup>/dev/null
 chsh -s $(which zsh)
 
 # Install global npm packages
-sudo ./global_npm.sh
+./global_npm.sh
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
