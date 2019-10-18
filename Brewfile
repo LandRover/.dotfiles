@@ -56,6 +56,7 @@ cask 'font-source-serif-pro'
 cask 'font-fira-code'
 
 # Apps
+cask 'grammarly'
 cask 'iterm2-nightly'
 cask 'google-chrome'
 cask 'firefox'
