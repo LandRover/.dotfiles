@@ -23,8 +23,8 @@ chsh -s $(which zsh)
 # update npm to latest
 npm install -g npm
 
-# Install global NPM packages
-sudo npm install --global yarn
+# Install global npm packages
+sudo ./global_npm.sh
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
