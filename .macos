@@ -496,7 +496,7 @@ defaults write com.apple.Safari WebAutomaticSpellingCorrectionEnabled -bool fals
 defaults write com.apple.Safari WarnAboutFraudulentWebsites -bool true
 
 # Set up Safari for development
-defaults write com.apple.Safari.SandboxBroker ShowDevelopMenu -bool
+defaults write com.apple.Safari.SandboxBroker ShowDevelopMenu -bool true
 
 # Disable Java
 defaults write com.apple.Safari WebKitJavaEnabled -bool false
