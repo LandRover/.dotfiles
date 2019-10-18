@@ -20,9 +20,6 @@ brew cleanup>/dev/null
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
-# update npm to latest
-npm install -g npm
-
 # Install global npm packages
 sudo ./global_npm.sh
 
