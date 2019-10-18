@@ -14,6 +14,9 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
+# Cleanup brew
+brew cleanup>/dev/null
+
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
