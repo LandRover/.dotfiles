@@ -198,6 +198,9 @@ defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 # Flash the time separators
 defaults write com.apple.menuextra.clock FlashDateSeparators -bool true
 
+# Analog menu bar clock
+defaults write com.apple.menuextra.clock IsAnalog -bool false
+
 # Stop iTunes from responding to the keyboard media keys
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
