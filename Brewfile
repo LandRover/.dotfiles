@@ -37,8 +37,10 @@ cask 'transmit'
 brew 'redis'
 brew 'node'
 brew 'nvm'
+brew 'pyenv'
 brew 'go'
 cask 'java'
+brew 'awscli'
 
 # Tools
 brew 'youtube-dl'
