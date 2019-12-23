@@ -27,6 +27,7 @@ brew 'links'
 brew 'trash'
 brew 'geoip'
 brew 'watch'
+brew 'gcal'
 
 # Development
 cask 'postman'
