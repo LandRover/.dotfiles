@@ -42,6 +42,7 @@ brew 'pyenv'
 brew 'go'
 cask 'java'
 brew 'awscli'
+cask 'session-manager-plugin'
 
 # Tools
 brew 'youtube-dl'
