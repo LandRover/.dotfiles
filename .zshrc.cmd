@@ -5,8 +5,9 @@ export LC_ALL=en_US.UTF-8
 # Set default editor to vim
 export EDITOR='vim'
 
-# Youtube-dl default output template.  Usage: youtube-dl --output $YOUTUBE_DL_OUTPUT
+# Youtube-dl default output template.  Usage: youtube-dl --output "$YOUTUBE_DL_OUTPUT" -f "$YOUTUBE_DL_QUALITY"
 export YOUTUBE_DL_OUTPUT='%(id)s - %(title)s (%(uploader)s) (%(id)s) (%(upload_date)s).%(ext)s'
+export YOUTUBE_DL_QUALITY='http-1080p-1/http-1080p/http-720p-1/http-720p/http-540p-1/http-540p/http-360p-1/http-360p'
 
 ## Make terminal better
 alias cp='cp -iv'
