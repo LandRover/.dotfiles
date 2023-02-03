@@ -33,4 +33,4 @@ code --install-extension wayou.vscode-todo-highlight
 code --install-extension wwm.better-align
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension Zignd.html-css-class-completion
-
+code --install-extension johnpapa.vscode-peacock
