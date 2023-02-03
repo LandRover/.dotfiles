@@ -1,18 +1,18 @@
 {
-  "http.proxyStrictSSL":false,
+  "http.proxyStrictSSL": false,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.colorTheme": "Atom One Dark",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.fontSize": 20,
-  "editor.renderIndentGuides": false,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.wordWrap": "off",
   "editor.fontFamily": "Operator Mono, Fire Mono",
   "terminal.integrated.fontFamily": "Source Code Pro",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
   "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\bash.exe",
   "terminal.external.osxExec": "iTerm.app",
   "window.zoomLevel": 1,
   "explorer.confirmDelete": false,
@@ -27,7 +27,26 @@
   "standard.validate": ["javascript", "javascriptreact"],
   "standard.autoFixOnSave": true,
   "npm.enableScriptExplorer": true,
-  "sync.gist": "d50442a9f99f9259deaa257bc9c42bec",
   "tabnine.experimentalAutoImports": true,
-  "console": "integratedTerminal"
+  "console": "integratedTerminal",
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "bracketPairColorizer.depreciation-notice": false,
+  "go.gopath": "/mnt/e/dev/Go",
+  "go.goroot": "/usr/local/go",
+  "go.useLanguageServer": true,
+  "go.formatTool": "goformat",
+  "go.autocompleteUnimportedPackages": true,
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "remote.WSL.debug": true,
+  "editor.guides.indentation": false,
+  "editor.inlineSuggest.enabled": true,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true
 }
