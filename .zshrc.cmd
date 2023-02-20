@@ -128,3 +128,6 @@ alias kill_chrome="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v exte
 alias shrug="printf '¯\_(ツ)_/¯' | pbcopy"
 alias flipt="printf '(╯°□°)╯︵ ┻━┻' | pbcopy"
 alias fight="printf '(ง'̀-'́)ง' | pbcopy"
+
+# brew M1 global var
+eval $(/opt/homebrew/bin/brew shellenv)
