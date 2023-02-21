@@ -43,6 +43,7 @@ brew 'pyenv'
 brew 'go'
 cask 'java'
 brew 'awscli'
+brew 'kubectl'
 cask 'session-manager-plugin'
 
 # Tools
