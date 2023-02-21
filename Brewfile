@@ -46,7 +46,7 @@ cask 'java'
 brew 'awscli'
 brew 'kubectl'
 cask 'session-manager-plugin'
-brew 'powerlevel10k'
+brew 'romkatv/powerlevel10k/powerlevel10k'
 
 # Tools
 brew 'youtube-dl'
